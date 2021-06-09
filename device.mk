@@ -75,6 +75,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/dot/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
+#FOD
+EXTRA_FOD_ANIMATIONS := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
