@@ -27,8 +27,6 @@ TARGET_KERNEL_CONFIG := pyxis_defconfig
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-<<<<<<< HEAD
-=======
 # Fingerprint on display
 SOONG_CONFIG_NAMESPACES += XIAOMI_SDM710_FOD
 SOONG_CONFIG_XIAOMI_SDM710_FOD := POS_X POS_Y SIZE
@@ -39,7 +37,6 @@ SOONG_CONFIG_XIAOMI_SDM710_FOD_SIZE := 190
 TARGET_SURFACEFLINGER_FOD_LIB := //device/xiaomi/sdm710-common:libfod_extension.xiaomi_sdm710
 TARGET_USES_FOD_ZPOS := true
 
->>>>>>> 9fb54030bb02 (pyxis: Use soong to define FOD position and size)
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
