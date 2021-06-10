@@ -10,6 +10,7 @@ persist.vendor.audio.fluence.audiorec=false
 persist.vendor.audio.fluence.tmic.enabled=false
 persist.vendor.audio.hifi.int_codec=true
 persist.vendor.audio.spv3.enable=true
+audio.offload.buffer.size.kb=32
 
 # Bluetooth
 bt.max.hfpclient.connections=1
