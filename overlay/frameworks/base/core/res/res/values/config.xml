@@ -100,7 +100,7 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-      <item>2.00</item>      <!--  0 - 1 -->
+      <item>2.78</item>      <!--  0 - 1 -->
       <item>5.00</item>      <!--  1 - 2 -->
       <item>10.00</item>     <!--  2 - 3 -->
       <item>15.00</item>     <!--  3 - 4 -->
@@ -129,7 +129,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
+        <item>1</item>
         <item>255</item>
     </integer-array>
 
@@ -141,7 +141,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>2</item>
+        <item>2.78</item>
         <item>630</item>
     </array>
 
@@ -161,7 +161,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
