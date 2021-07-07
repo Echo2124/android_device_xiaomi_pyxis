@@ -67,6 +67,8 @@ on post-fs-data
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en
     chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_hbm_en
     
+    write /sys/class/power_supply/battery/charge_full 4030000
+    
 service adsprpcd /vendor/bin/adsprpcd rootpd
     class main
     user system
