@@ -71,3 +71,6 @@ persist.radio.sar_sar_sensor=true
 
 # WiFi Display
 persist.sys.wfd.virtual=0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
