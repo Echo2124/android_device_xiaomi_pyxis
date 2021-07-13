@@ -117,6 +117,7 @@ ro.fod.dimlayer.enable=true
 # Graphics
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+debug.performance.tuning=1
 
 # Listen
 ro.vendor.audio.soundtrigger=xiaomi
