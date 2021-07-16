@@ -1,0 +1,21 @@
+#RAS_TEST_SPKR_PHONE_SPKR_STEREO
+acdb_dev_id:136
+!Playback
+Rxdevice:0
+
+enable
+INT4_MI2S_RX Channels:Two
+RX4 MIX1 INP1:RX4
+RX5 MIX1 INP1:RX5
+COMP1 Switch:1
+COMP2 Switch:1
+INT4_MI2S_RX Audio Mixer MultiMedia1:1
+
+disable
+INT4_MI2S_RX Channels:One
+RX4 MIX1 INP1:ZERO
+RX5 MIX1 INP1:ZERO
+COMP1 Switch:0
+COMP2 Switch:0
+INT4_MI2S_RX Audio Mixer MultiMedia1:0
+

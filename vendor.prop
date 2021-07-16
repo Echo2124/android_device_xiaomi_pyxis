@@ -1,0 +1,33 @@
+# Audio
+ro.vendor.audio.game.effect=true
+ro.vendor.audio.soundfx.type=mi
+ro.vendor.audio.voice.volume.boost=manual
+vendor.audio.feature.compr_voip.enable=false
+vendor.voice.path.for.pcm.voip=false
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Display
+ro.surface_flinger.has_wide_color_display=true
+
+# Display postprocessing
+vendor.display.enable_default_color_mode=1
+
+# Fingerprint
+persist.vendor.sys.fp.fod.location.X_Y=445,1910
+persist.vendor.sys.fp.fod.size.width_height=190,190
+ro.hardware.fp.fod=true
+
+# Graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+
+# Listen
+ro.vendor.audio.soundtrigger=xiaomi
+ro.vendor.audio.soundtrigger.lowpower=false
+
+# NFC
+ro.hardware.nfc_nci=nqx.default
+ro.se.type=HCE,UICC
+ro.vendor.nfc.repair=1
