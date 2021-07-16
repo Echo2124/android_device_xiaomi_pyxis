@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pyxis.mk
+    $(LOCAL_DIR)/dot_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pyxis-user \
-    evolution_pyxis-userdebug \
-    evolution_pyxis-eng
+    dot_pyxis-user \
+    dot_pyxis-userdebug \
+    dot_pyxis-eng
