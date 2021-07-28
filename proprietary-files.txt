@@ -243,7 +243,9 @@ vendor/etc/sdr_config.cfg
 vendor/bin/mtd@1.2
 vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/lib64/libmfido.so
+vendor/lib64/libminkdescriptor.so
 vendor/lib64/libmt@1.2.so
+vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -262,6 +264,7 @@ modem/image/widevine.b07:vendor/firmware/widevine.b07
 modem/image/widevine.mdt:vendor/firmware/widevine.mdt
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
@@ -474,10 +477,6 @@ vendor/etc/sensors/proto/sns_timer.proto
 vendor/etc/sensors/proto/sns_ultra_violet.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/sns_reg_config
-
-# Snapdragon Computer Vision Engine
-vendor/lib/libscveFaceRecognition.so
-vendor/lib64/libscveFaceRecognition.so
 
 # Thermal configs
 vendor/etc/thermal-engine-sdm710-camera.conf
