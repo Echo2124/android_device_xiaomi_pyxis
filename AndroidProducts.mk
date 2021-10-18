@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_pyxis.mk
+    $(LOCAL_DIR)/arrow_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_pyxis-user \
-    dot_pyxis-userdebug \
-    dot_pyxis-eng
+    arrow_pyxis-user \
+    arrow_pyxis-userdebug \
+    arrow_pyxis-eng

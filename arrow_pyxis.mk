@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/pyxis/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 #Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -19,7 +19,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_pyxis
+PRODUCT_NAME := arrow_pyxis
 PRODUCT_DEVICE := pyxis
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9 Lite
