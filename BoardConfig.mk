@@ -43,5 +43,13 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+
+# Fingerprint on display
+SOONG_CONFIG_NAMESPACES += XIAOMI_SDM710_FOD
+SOONG_CONFIG_XIAOMI_SDM710_FOD := POS_X POS_Y SIZE
+SOONG_CONFIG_XIAOMI_SDM710_FOD_POS_X := 445
+SOONG_CONFIG_XIAOMI_SDM710_FOD_POS_Y := 1910
+SOONG_CONFIG_XIAOMI_SDM710_FOD_SIZE := 190
+TARGET_USES_FOD_ZPOS := true
 # Inherit from the proprietary version
 -include vendor/xiaomi/pyxis/BoardConfigVendor.mk

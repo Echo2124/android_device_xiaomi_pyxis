@@ -19,7 +19,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lineage \
+	$(LOCAL_PATH)/overlay-arrow
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -68,12 +69,9 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm710 \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor:64 \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sdm710
-
-PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm710 \
+   android.hardware.biometrics.fingerprint@2.3.vendor \
+	 vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor:64
 
 # FM
 PRODUCT_PACKAGES += \
