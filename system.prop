@@ -10,6 +10,7 @@ persist.vendor.audio.fluence.audiorec=false
 persist.vendor.audio.fluence.tmic.enabled=false
 persist.vendor.audio.hifi.int_codec=true
 persist.vendor.audio.spv3.enable=true
+audio.offload.buffer.size.kb=32
 
 # Bluetooth
 bt.max.hfpclient.connections=1
@@ -70,3 +71,11 @@ persist.radio.sar_sar_sensor=true
 
 # WiFi Display
 persist.sys.wfd.virtual=0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+debug.sf.latch_unsignaled=1
